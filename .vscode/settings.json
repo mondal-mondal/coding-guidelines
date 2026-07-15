@@ -1,0 +1,73 @@
+// SPDX-FileCopyrightText: © 2026 Sushant Mondal <contact@sushantmondal.com>
+//
+// SPDX-License-Identifier: MIT
+
+{
+  "black-formatter.args": ["--line-length=100"],
+
+  // Prevent VS Code from overriding tabSize by guessing from file content.
+  "editor.detectIndentation": false,
+
+  "editor.fontFamily": "'Terminus (TTF)', 'Terminus', monospace",
+  "editor.fontLigatures": false,
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
+
+  // No hard tabs anywhere.
+  "editor.insertSpaces": true,
+
+  // Max character length for any line in this repository is 100. Wrap to the next line, do not
+  // cross the vertical line.
+  "editor.rulers": [100],
+
+  // Default indetation is 2 spaces.
+  "editor.tabSize": 2,
+
+  // Only LF, no CRLF.
+  "files.eol": "\n",
+
+  // Every file ends with exactly one newline.
+  // Refs: POSIX
+  "files.insertFinalNewline": true,
+
+  // Remove extra blank lines beyond the single final newline.
+  "files.trimFinalNewlines": true,
+
+  // Remove trailing whitespace on save.
+  "files.trimTrailingWhitespace": true,
+
+  "python-envs.defaultEnvManager": "ms-python.python:system",
+  "terminal.integrated.fontFamily": "'Terminus (TTF)', 'Terminus', monospace",
+  "terminal.integrated.fontSize": 14,
+  "verilog.formatting.veribleVerilogFormatter.arguments": "--column_limit=100",
+  "[git-commit]": {
+
+    // 50-72 for the subject line. 72 for the body and footer lines.
+    "editor.rulers": [50, 72],
+
+    "editor.wordWrap": "off"
+  },
+  "[jsonc]": {
+    "editor.formatOnSave": false
+  },
+  "[python]": {
+
+    // Format with Black on save.
+    "editor.defaultFormatter": "ms-python.black-formatter",
+
+    // Python uses 4-space indentation.
+    // Refs: https://peps.python.org/pep-0008/#indentation
+    "editor.tabSize": 4,
+
+  },
+  "[systemverilog]": {
+
+    // Format with Verible (CHIPS Alliance) on save.
+    "editor.defaultFormatter": "chipsalliance.verible",
+
+    // lowRISC uses 2-space indentation.
+    // Refs: https://github.com/lowRISC/style-guides/blob/master/VerilogCodingStyle.md#indentation
+    "editor.tabSize": 2,
+
+  },
+}

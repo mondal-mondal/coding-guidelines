@@ -1,0 +1,51 @@
+# SPDX-FileCopyrightText: © 2026 Sushant Mondal <contact@sushantmondal.com>
+#
+# SPDX-License-Identifier: MIT
+#
+# Editor-agnostic whitespace and encoding rules.
+
+# Stop EditorConfig from searching parent directories.
+root = true
+
+[*]
+
+# Only UTF-8, no byte order mark.
+charset = utf-8
+
+# Only LF, no CRLF.
+end_of_line = lf
+
+# No hard tabs anywhere.
+indent_style = space
+
+# Default indentation is 2 spaces.
+indent_size = 2
+
+# Every file ends with exactly one newline.
+# Refs: POSIX
+insert_final_newline = true
+
+# Max character length for any line in this repository is 100. Wrap to the next line, do not cross
+# the vertical line.
+max_line_length = 100
+
+# Remove trailing whitespace on save.
+trim_trailing_whitespace = true
+
+[*.py]
+
+# Python uses 4-space indentation.
+# Refs: https://peps.python.org/pep-0008/#indentation
+indent_size = 4
+
+[*.{sv,svh,v,vh}]
+
+# lowRISC uses 2-space indentation.
+# Refs: https://github.com/lowRISC/style-guides/blob/master/VerilogCodingStyle.md#indentation
+indent_size = 2
+
+[{COMMIT_EDITMSG,MERGE_MSG,TAG_EDITMSG}]
+
+# 50-72 for the subject line, 72 for the body and footer lines. EditorConfig cannot express a
+# per-line limit, so the body limit is applied to the whole message.
+max_line_length = 72
