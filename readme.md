@@ -4,11 +4,56 @@
 
 # Coding guidelines
 
+---
+
+## Overview <a id="overview"></a>
+
 The single-source-of-truth reference material for writing the cleanest code. The rules written in
 this document override any adopted external style guides and hold the highest precedence.
 
-Sections are ordered alphabetically, except [Global](#global), whose subsections follow the order a
-contributor encounters them, and [License](#license), which closes the document.
+Sections are ordered alphabetically, except [Overview](#overview), which opens the document,
+[Global](#global), whose subsections follow the order a contributor encounters them, and
+[License](#license), which closes the document.
+
+### Table of contents <a id="overview-table-of-contents"></a>
+
+- [Overview](#overview)
+  - [Table of contents](#overview-table-of-contents)
+- [Global](#global)
+  - [Versioning](#global-versioning)
+  - [Adoption](#global-adoption)
+  - [Language](#global-language)
+  - [Tooling and enforcement](#global-tooling-and-enforcement)
+  - [File name](#global-file-name)
+    - [Prefix](#global-file-name-prefix)
+    - [Suffix](#global-file-name-suffix)
+  - [Copyright and license header](#global-copyright-and-license-header)
+  - [Whitespace](#global-whitespace)
+  - [Column count](#global-column-count)
+  - [Git](#global-git)
+    - [Commit type](#global-git-commit-type)
+    - [Branch name](#global-git-branch-name)
+    - [Commit message](#global-git-commit-message)
+      - [Trailer](#global-git-commit-message-trailer)
+- [C++](#cpp)
+- [Markdown](#markdown)
+  - [File name](#markdown-file-name)
+  - [Inline HTML](#markdown-inline-html)
+- [PlantUML](#plantuml)
+  - [Case](#plantuml-case)
+  - [Port name](#plantuml-port-name)
+  - [Port order](#plantuml-port-order)
+  - [Tabular alignment](#plantuml-tabular-alignment)
+- [Python](#python)
+  - [Column count](#python-column-count)
+  - [Docstring](#python-docstring)
+  - [Format](#python-format)
+  - [Type hint](#python-type-hint)
+- [SystemVerilog](#systemverilog)
+  - [File name](#systemverilog-file-name)
+    - [Suffix](#systemverilog-file-name-suffix)
+  - [Port order](#systemverilog-port-order)
+- [License](#license)
 
 ---
 
