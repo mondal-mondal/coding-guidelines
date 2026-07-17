@@ -30,6 +30,7 @@ Sections are ordered alphabetically, except [Overview](#overview), which opens t
   - [Copyright and license header](#global-copyright-and-license-header)
   - [Whitespace](#global-whitespace)
   - [Column count](#global-column-count)
+  - [Link](#global-link)
   - [Git](#global-git)
     - [Commit type](#global-git-commit-type)
     - [Branch name](#global-git-branch-name)
@@ -170,6 +171,11 @@ Every source file:
 
 The maximum allowed column count or character width is 100. Unbreakable tokens, for example, long
 URLs or paths, are exempt.
+
+### Link <a id="global-link"></a>
+
+Use canonical links only. Do not use `www.` as a subdomain and/or a trailing slash unless the
+canonical link consists them/it.
 
 ### Git <a id="global-git"></a>
 
