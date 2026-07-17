@@ -87,7 +87,7 @@ A repository adopts these guidelines by declaring the adopted version in its `re
 Example:
 
 ```
-This repository conforms to the coding guidelines, v0.1.0.
+This repository conforms to the coding guidelines by Mondal & Mondal, v0.1.0.
 ```
 
 Link to the tag, not to the default branch, so that the declaration remains reproducible.
