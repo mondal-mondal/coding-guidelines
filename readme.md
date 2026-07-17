@@ -104,7 +104,10 @@ is documented in the adopting repository's `docs/style.md`, along with its justi
 
 ### Language <a id="global-language"></a>
 
-Use American English (IETF language tag: `en-US`) over other variations of the English language.
+Use American English (IETF language tag: `en-US`) over other variations of the English language,
+except for two conventions: The Oxford comma is used in a series, and punctuation is placed outside
+a closing quotation mark unless it is part of the quoted text (logical quotation), rather than the
+American convention of placing it inside.
 
 ### Tooling and enforcement <a id="global-tooling-and-enforcement"></a>
 
