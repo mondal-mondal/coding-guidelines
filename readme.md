@@ -72,11 +72,11 @@ Each release is tagged `v<major>.<minor>.<patch>` and recorded in [changelog.md]
 
 Version numbers are incremented as follows:
 
-1. **Major**: A change that can make conforming code non-conforming, i.e., a rule is added,
+1. **Major**: a change that can make conforming code non-conforming, i.e., a rule is added,
    tightened, or an exemption is removed.
-1. **Minor**: A change that cannot make conforming code non-conforming, i.e., a rule is relaxed,
+1. **Minor**: a change that cannot make conforming code non-conforming, i.e., a rule is relaxed,
    optional guidance is added, or a previously ungoverned language is given a section.
-1. **Patch**: An editorial change with no normative effect, i.e., typographical fixes, link repairs,
+1. **Patch**: an editorial change with no normative effect, i.e., typographical fixes, link repairs,
    rewording, or corrected examples.
 
 ### Adoption <a id="global-adoption"></a>
