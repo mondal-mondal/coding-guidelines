@@ -31,6 +31,7 @@ Sections are ordered alphabetically, except [Overview](#overview), which opens t
   - [Whitespace](#global-whitespace)
   - [Column count](#global-column-count)
   - [Link](#global-link)
+  - [Comment](#global-comment)
   - [Git](#global-git)
     - [Commit type](#global-git-commit-type)
     - [Branch name](#global-git-branch-name)
@@ -179,6 +180,12 @@ URLs or paths, are exempt.
 
 Use canonical links only. Do not use `www.` as a subdomain and/or a trailing slash unless the
 canonical link consists them/it.
+
+### Comment <a id="global-comment"></a>
+
+Use
+[Microsoft Visual Basic Coding Conventions — Commenting Conventions](https://learn.microsoft.com/en-us/dotnet/visual-basic/programming-guide/program-structure/coding-conventions#commenting-conventions),
+except end with a period only when it is a complete sentence.
 
 ### Git <a id="global-git"></a>
 
