@@ -210,6 +210,8 @@ only `feat` and `fix`. The complete set permitted by this project is:
 
 #### Branch name <a id="global-git-branch-name"></a>
 
+[![Conventional Branch](https://img.shields.io/badge/Conventional%20Branch-Spec-6192c3)](https://github.com/conventional-branch/conventional-branch)
+
 The default branch name is `main`. Do not use any other variations like `master`, `trunk`, etc.
 
 Branches are named `<type>/<description>`, where `<type>` is drawn from the same set as a commit
@@ -232,6 +234,8 @@ docs/whitespace-indent-width
 ```
 
 #### Commit message <a id="global-git-commit-message"></a>
+
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-%23FE5196?logo=conventionalcommits&logoColor=white)](https://conventionalcommits.org)
 
 Use Conventional Commits 1.0.0.
 
