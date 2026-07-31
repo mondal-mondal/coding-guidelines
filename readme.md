@@ -154,14 +154,14 @@ is required by the format itself.
 
 The indent width per language is:
 
-| Language | Indent width |
-| :--- | :--- |
-| C++ | 2 |
-| Markdown | 2 |
-| PlantUML | 2 |
-| Python | 4 |
-| SystemVerilog | 2 |
-| YAML | 2 |
+| Language      | Indent width |
+| --------------| ------------ |
+| C++           | 2            |
+| Markdown      | 2            |
+| PlantUML      | 2            |
+| Python        | 4            |
+| SystemVerilog | 2            |
+| YAML          | 2            |
 
 Every source file:
 
@@ -194,19 +194,19 @@ except end with a period only when it is a complete sentence.
 [Conventional Commits 1.0.0](https://www.conventionalcommits.org/en/v1.0.0/) normatively defines
 only `feat` and `fix`. The complete set permitted by this project is:
 
-| Type | Use |
-| :--- | :--- |
-| `build` | Build system, toolchain, or dependency changes |
-| `chore` | Maintenance with no effect on source or tests |
-| `ci` | CI/CD configuration and pipeline changes |
-| `docs` | Documentation only |
-| `feat` | A new feature |
-| `fix` | A bug fix |
-| `perf` | A change that improves performance |
+| Type       | Use                                                  |
+| ---------- | ---------------------------------------------------- |
+| `build`    | Build system, toolchain, or dependency changes       |
+| `chore`    | Maintenance with no effect on source or tests        |
+| `ci`       | CI/CD configuration and pipeline changes             |
+| `docs`     | Documentation only                                   |
+| `feat`     | A new feature                                        |
+| `fix`      | A bug fix                                            |
+| `perf`     | A change that improves performance                   |
 | `refactor` | A change that neither fixes a bug nor adds a feature |
-| `revert` | A revert of a previous commit |
-| `style` | Formatting only, with no change in behavior |
-| `test` | Adding or correcting tests |
+| `revert`   | A revert of a previous commit                        |
+| `style`    | Formatting only, with no change in behavior          |
+| `test`     | Adding or correcting tests                           |
 
 #### Branch name <a id="global-git-branch-name"></a>
 
@@ -262,12 +262,12 @@ line, and contain nothing but trailers.
 
 The permitted tokens are:
 
-| Token | Value |
-| :--- | :--- |
-| `Closes` | An issue or merge request reference that this commit resolves |
-| `Co-authored-by` | `<name> <<email>>` of an additional author |
-| `Refs` | A related issue, merge request, commit, or URI |
-| `Reviewed-by` | `<name> <<email>>` of a reviewer |
+| Token            | Value                                                         |
+| ---------------- | ------------------------------------------------------------- |
+| `Closes`         | An issue or merge request reference that this commit resolves |
+| `Co-authored-by` | `<name> <<email>>` of an additional author                    |
+| `Refs`           | A related issue, merge request, commit, or URI                |
+| `Reviewed-by`    | `<name> <<email>>` of a reviewer                              |
 
 A trailer that applies more than once is repeated, once per line. Values are never combined into a
 comma-separated list on a single line.
@@ -315,11 +315,11 @@ No inline HTML except where Markdown has no equivalent.
 
 ### Case <a id="plantuml-case"></a>
 
-| Target | Case | Example |
-| :--- | :--- | :--- |
-| Component name | `PascalCase` | `component ExampleComponent` |
-| Diagram name | `snake_case` | `@startuml example_diagram` |
-| Port name | Component name: `PascalCase` <br> Port name: `snake_case` | `portin "example_port_i" as ExampleComponent_example_port_i` <br> `portout "example_port_o" as ExampleComponent_example_port_o` |
+| Target         | Case                                                      | Example                                                                                                                         |
+| -------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| Component name | `PascalCase`                                              | `component ExampleComponent`                                                                                                    |
+| Diagram name   | `snake_case`                                              | `@startuml example_diagram`                                                                                                     |
+| Port name      | Component name: `PascalCase` <br> Port name: `snake_case` | `portin "example_port_i" as ExampleComponent_example_port_i` <br> `portout "example_port_o" as ExampleComponent_example_port_o` |
 
 ### Port name <a id="plantuml-port-name"></a>
 
