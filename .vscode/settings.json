@@ -8,9 +8,6 @@
   // Prevent VS Code from overriding tabSize by guessing from file content.
   "editor.detectIndentation": false,
 
-  "editor.fontFamily": "'Terminus (TTF)', 'Terminus', monospace",
-  "editor.fontLigatures": false,
-  "editor.fontSize": 14,
   "editor.formatOnSave": true,
 
   // No hard tabs anywhere.
@@ -37,9 +34,10 @@
   "files.trimTrailingWhitespace": true,
 
   "python-envs.defaultEnvManager": "ms-python.python:system",
-  "terminal.integrated.fontFamily": "'Terminus (TTF)', 'Terminus', monospace",
-  "terminal.integrated.fontSize": 14,
   "verilog.formatting.veribleVerilogFormatter.arguments": "--column_limit=100",
+  "[c]": {
+    "editor.tabSize": 8,
+  },
   "[git-commit]": {
 
     // 50-72 for the subject line. 72 for the body and footer lines.
